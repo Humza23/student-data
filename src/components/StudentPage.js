@@ -1,8 +1,34 @@
 import React from 'react'
+import { useParams } from 'react-router-dom';
 
-const StudentPage = () => {
+const StudentPage = (props) => {
+    const {studentData, gradesData} = props
+  const { studentID } = useParams();
+  
+  const studentInfo = studentData.find(student => {
+    return student.studentID == studentID
+  }) || {}
+  
+const gradesFiltered = gradesData.filter(grade => {
+    return grade.StudentID == studentInfo.StudentID
+})
+
+console.log('studentinfo', studentInfo);
+console.log('grades', gradesFiltered);
+
   return (
-    <div>StudentPage</div>
+    <div>
+        StudentPage
+        <h1>
+            {studentInfo.FirstName} {studentInfo.LastName}
+            {gradesFiltered.map(grade => (
+                <p key={Math.random()}> {grade.Subject}: {grade.Percent} </p>
+            ))}
+        </h1>
+
+
+
+    </div>
   )
 }
 
