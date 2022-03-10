@@ -6,7 +6,7 @@ const StudentPage = (props) => {
   const { studentID } = useParams();
   
   const studentInfo = studentData.find(student => {
-    return student.studentID == studentID
+    return student.StudentID == studentID
   }) || {}
   
 const gradesFiltered = gradesData.filter(grade => {
@@ -15,6 +15,7 @@ const gradesFiltered = gradesData.filter(grade => {
 
 console.log('studentinfo', studentInfo);
 console.log('grades', gradesFiltered);
+console.log('studentpage ID', studentID);
 
   return (
     <div>
