@@ -1,0 +1,382 @@
+[
+  {
+    "StudentID": 186387859,
+    "FirstName": "Demetria",
+    "LastName": "Pickering",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 187360225,
+    "FirstName": "Suad",
+    "LastName": "Gilchrist",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 193339976,
+    "FirstName": "Jasmine",
+    "LastName": "Babin",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 248731924,
+    "FirstName": "Aiden",
+    "LastName": "Culp",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 203791092,
+    "FirstName": "Nada",
+    "LastName": "Blanton",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 240862699,
+    "FirstName": "Mariam",
+    "LastName": "Groce",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 229155750,
+    "FirstName": "Felicia",
+    "LastName": "Phan",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 176155848,
+    "FirstName": "Tina",
+    "LastName": "Pollock",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 112402843,
+    "FirstName": "Brenayah",
+    "LastName": "Basham",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 154220088,
+    "FirstName": "Moussomady",
+    "LastName": "Paulsen",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 205969382,
+    "FirstName": "LiAanni",
+    "LastName": "Pomeroy",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 245272941,
+    "FirstName": "Omar",
+    "LastName": "Pham",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 222181495,
+    "FirstName": "Tanaja",
+    "LastName": "Chance",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 108789806,
+    "FirstName": "Madison",
+    "LastName": "Burris",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 191598647,
+    "FirstName": "David",
+    "LastName": "Coughlin",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 264585262,
+    "FirstName": "Trinity",
+    "LastName": "Barger",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 158114687,
+    "FirstName": "Yomauro",
+    "LastName": "Britt",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 133011999,
+    "FirstName": "Kim",
+    "LastName": "Benedict",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 158396676,
+    "FirstName": "Nasir",
+    "LastName": "Coleman",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 159663734,
+    "FirstName": "Makhila",
+    "LastName": "Billings",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 167357293,
+    "FirstName": "Traven",
+    "LastName": "Gilbert",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 132706592,
+    "FirstName": "Jalen",
+    "LastName": "Kaiser",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 141694017,
+    "FirstName": "Mathew",
+    "LastName": "Abbott",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 145344062,
+    "FirstName": "Dylan",
+    "LastName": "Britton",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 114689272,
+    "FirstName": "Natasha",
+    "LastName": "Card",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 257455909,
+    "FirstName": "Harun",
+    "LastName": "Kendrick",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 183821830,
+    "FirstName": "Aissatou",
+    "LastName": "Blankenship",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 274638682,
+    "FirstName": "Keiley",
+    "LastName": "Yanez",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 142052465,
+    "FirstName": "Jayson",
+    "LastName": "Abrams",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 182621545,
+    "FirstName": "Jayden",
+    "LastName": "Benefield",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 235229230,
+    "FirstName": "Aicha",
+    "LastName": "Kim",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 210268501,
+    "FirstName": "Cajarrie",
+    "LastName": "Crowley",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 198600111,
+    "FirstName": "Kristin",
+    "LastName": "Gagnon",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 197277421,
+    "FirstName": "Alannah",
+    "LastName": "Peck",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 149655100,
+    "FirstName": "Shanya",
+    "LastName": "Gaskin",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 100992784,
+    "FirstName": "Syleena",
+    "LastName": "Bates",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 232035489,
+    "FirstName": "Alaya",
+    "LastName": "Gamez",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  },
+  {
+    "StudentID": 102708857,
+    "FirstName": "Kamoren",
+    "LastName": "Grimes",
+    "SchoolYear": "2020-2021",
+    "BuildingCode": "NY01MS",
+    "GradeLevel": 7,
+    "Homeroom": "07, New York University",
+    "GradeLevelNumeric": 7
+  }
+]
