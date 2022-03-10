@@ -8,6 +8,9 @@ const Navbar = () => {
     <ul>
       <Link to="/" style={{color: 'black'}}>Home - Student List</Link>
     </ul>
+    <ul>
+        <button onClick={()=>window.print()}> Print Me!</button>
+    </ul>
 
   </div>
   );

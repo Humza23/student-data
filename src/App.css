@@ -37,13 +37,19 @@
   }
 }
 #navbar {
-  height: 2rem;
+  height: 3.5rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin-top: 1rem;
   padding-bottom: .5rem;
   border-bottom: 2px solid rgb(0, 0, 0);
 }
 
+#navbar ul {
+  padding: 0;
+  margin: 10px;
+}
 
 .studentPage {
   display: flex;
