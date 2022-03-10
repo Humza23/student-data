@@ -35,6 +35,7 @@ console.log('studentpage ID', studentID);
         </div>
             
             <div className='studentGrades'>
+                <p className='studentPageHeaders'> Grades </p>
 
             {gradesFiltered.map(grade => (
                 <p className='studentGradeInfo' key={Math.random()}> {grade.Subject}: {grade.Percent} </p>
@@ -43,6 +44,7 @@ console.log('studentpage ID', studentID);
             </div>
 
             <div className='studentAttendance'>
+                <p className='studentPageHeaders'> Attendance </p>
                 
             {attendanceFiltered.map(attendance => (
                 <p className='studentAttendanceInfo' key={Math.random()}> {attendance.Date}: {attendance.Type} </p>

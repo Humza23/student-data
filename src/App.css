@@ -38,9 +38,10 @@
 }
 #navbar {
   height: 2rem;
-  margin: 0 auto;
-  padding: 1.5rem;
-  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  padding-bottom: .5rem;
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 
@@ -50,9 +51,13 @@
   flex-wrap: wrap;
 
 }
+.studentName {
+  height: 1rem;
+}
+
 .studentSchoolInfo {
   justify-content: space-between;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .studentGrades {
@@ -62,3 +67,15 @@
 .studentAttendance {
   border: 2px solid rgb(172, 30, 30);
 }
+
+.studentPageHeaders {
+  text-decoration: underline;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@media print{
+  #navbar{
+  display:none;
+  }
+  }
