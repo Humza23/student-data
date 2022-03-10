@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+#navbar {
+  height: 2rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+
+.studentPage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.studentSchoolInfo {
+  justify-content: space-between;
+  border: 2px solid green;
+}
+
+.studentGrades {
+  border: 2px solid blue;
+}
+
+.studentAttendance {
+  border: 2px solid rgb(172, 30, 30);
+}

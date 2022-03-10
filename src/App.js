@@ -7,6 +7,7 @@ import StudentPage from './components/StudentPage'
 
 import studentData from './data/students.json'
 import gradesData from './data/grades.json'
+import attendanceData from './data/attendance.json'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <Route
               path="/:studentID"
               element={
-                <StudentPage studentData={studentData} gradesData={gradesData}/>
+                <StudentPage studentData={studentData} gradesData={gradesData} attendanceData={attendanceData}/>
               }
             />
           </Routes>

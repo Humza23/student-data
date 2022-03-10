@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return(
 
-  <div id='navbar'style={{height: '5rem', margin: '0 auto'}} >
+  <div id='navbar'>
     <ul>
-      <Link to="/" style={{color: 'red'}}>Home - Student List</Link>
+      <Link to="/" style={{color: 'black'}}>Home - Student List</Link>
     </ul>
 
   </div>
