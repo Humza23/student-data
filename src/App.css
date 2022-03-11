@@ -26,6 +26,7 @@
 }
 .studentName {
   height: 1rem;
+  margin-top: .5rem;
   margin-bottom: 1.75rem;
 }
 
@@ -78,4 +79,8 @@
 
 p {
   color: #003b70;
+}
+
+.studentPageHeaders{
+  margin-top: .5rem;
 }
