@@ -1,5 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPrint } from '@fortawesome/free-solid-svg-icons'
+
 
 const StudentPage = (props) => {
     const {studentData, gradesData, attendanceData} = props
@@ -25,8 +28,7 @@ console.log('studentpage ID', studentID);
   return (
     <div className='studentPage'>
         <div className='btnDiv'>
-
-        <button className='printBtn' onClick={()=>window.print()}> Print Me!</button>
+        <FontAwesomeIcon className='printBtn' icon={faPrint} onClick={()=>window.print()} />
         </div>
         <h1 className='studentName'>
             {studentInfo.FirstName} {studentInfo.LastName}

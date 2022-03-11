@@ -38,12 +38,12 @@
 
 .studentGrades {
   border: 2px solid #003b70;
-;
+  border-top: 0;
+  border-bottom: 0;
 }
 
 .studentAttendance {
   border: 2px solid #003b70;
-;
 }
 
 .studentPageHeaders {
@@ -64,6 +64,9 @@
 .printBtn {
   justify-content: center;
   margin: 0 auto;
+  height: 1.5rem;
+  cursor: pointer;
+  color: grey;
 }
 
 .btnDiv {
