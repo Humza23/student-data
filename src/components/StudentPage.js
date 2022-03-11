@@ -24,6 +24,10 @@ console.log('studentpage ID', studentID);
 
   return (
     <div className='studentPage'>
+        <div className='btnDiv'>
+
+        <button className='printBtn' onClick={()=>window.print()}> Print Me!</button>
+        </div>
         <h1 className='studentName'>
             {studentInfo.FirstName} {studentInfo.LastName}
         </h1>
