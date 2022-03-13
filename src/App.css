@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   color: #003b70;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 #navbar {
@@ -101,7 +101,7 @@ p {
 }
 .studentListNames p {
   border: 2px solid black;
-  padding-top: .7rem;
+  padding-top: 0.7rem;
   margin-bottom: 10rem;
   border-radius: 35%;
   height: 2rem;
