@@ -2,6 +2,7 @@
   text-align: center;
   /* background-color: #003b70; */
   color: #003b70;
+  font-family: 'Inter', sans-serif;
 }
 
 #navbar {
@@ -12,10 +13,10 @@
   border-bottom: 2px solid #003b70;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
-#navbar img{
+#navbar img {
   float: left;
 }
 
@@ -27,14 +28,13 @@
 }
 .studentName {
   height: 1rem;
-  margin-top: .5rem;
-  margin-bottom: 1.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .studentSchoolInfo {
   justify-content: space-between;
   border: 2px solid #003b70;
-;
 }
 
 .studentGrades {
@@ -46,7 +46,7 @@
 .studentAttendance {
   border: 2px solid #003b70;
 }
-.studentAttendanceInfo{
+.studentAttendanceInfo {
   text-transform: capitalize;
 }
 
@@ -81,13 +81,30 @@
   height: 3rem;
 }
 .studentList {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 p {
   color: #003b70;
 }
 
-.studentPageHeaders{
-  margin-top: .5rem;
+.studentPageHeaders {
+  margin-top: 0.5rem;
+}
+
+.studentListNames {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.studentListNames p {
+  border: 2px solid black;
+  padding-top: .8rem;
+  margin-bottom: 10rem;
+  border-radius: 35%;
+  height: 2rem;
+  width: 12.5rem;
 }

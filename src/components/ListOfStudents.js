@@ -13,6 +13,7 @@ const ListOfStudents = (props) => {
       <h1 style={{textDecoration: 'underline'}}>
       NY01MS 07 - New York University Students
       </h1>
+      <div className='studentListNames'>
       { sortedStudentData.map(student => (
         <div className='studentName' key={student.StudentID} onClick={()=>console.log(student.StudentID)}>
                 <Link to={`/${student.StudentID}`}>
@@ -23,7 +24,8 @@ const ListOfStudents = (props) => {
 
             </div>
       ))
-      }
+    }
+    </div>
 </div>
       );
 };
