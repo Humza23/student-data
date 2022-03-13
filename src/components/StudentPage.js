@@ -20,11 +20,6 @@ const attendanceFiltered = attendanceData.filter(attendance => {
     return attendance.StudentID == studentID
   }) || {}
 
-console.log('studentinfo', studentInfo);
-console.log('grades', gradesFiltered);
-console.log('attendance', attendanceFiltered);
-console.log('studentpage ID', studentID);
-
   return (
     <div className='studentPage'>
         <div className='btnDiv'>
