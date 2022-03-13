@@ -46,7 +46,7 @@ const ListOfStudents = (props) => {
         {foundUsers && foundUsers.length > 0 ? (
           foundUsers.map((student) => (
             <div className="studentName" key={student.StudentID}>
-              <Link to={`/${student.StudentID}`}>
+              <Link to={`/student-data/${student.StudentID}`}>
                 <p>
                   {" "}
                   {student.FirstName} {student.LastName}{" "}

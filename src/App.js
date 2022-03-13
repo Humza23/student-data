@@ -16,11 +16,11 @@ function App() {
 
       <Routes>
         <Route
-          path="/"
+          path="/student-data"
           element={<ListOfStudents studentData={studentData} />}
         />
         <Route
-          path="/:studentID"
+          path="/student-data/:studentID"
           element={
             <StudentPage
               studentData={studentData}
