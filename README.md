@@ -1,70 +1,46 @@
 # Getting Started with Create React App
+1. For the scope of this task, display 1 group of students within 1 homeroom in 1 school of the dataset
+2. Each student must display the scholar's name, school, grade level, homeroom, yearly grades, and weekly attendance rate.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Assumptions
 
-## Available Scripts
+1. One student can have only 1 unique student ID, as the given data set (Primary Key)
 
-In the project directory, you can run:
+## Solution formulation
 
-### `npm start`
+Steps I thought of and executed for displaying the correct information for each scholar:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. For the scope of this project, I converted the desired excel data to CSV and then to JSON.
+2. Get all scholar's names by unique student ID and iterate through them to display.
+3. Each name Routes using react-router-dom to a Link with student ID as URL parameter
+    - Created a Search Bar using React Hooks to simplify user experience allowing for search by student name.
+4. Filter through JSON data to return correct student data according to student ID.
+5. For ease of use, display print button allowing data to be printed in an easy to view manner
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Libraries/Tools used
 
-### `npm test`
+* ReactJS - ES6 syntax with Functional components and React Hooks.
+* React-Router-Dom for Dynamic routes to student pages
+* CSV to JSON converter to access data provided
+* Utilized Font Awesome and Google Fonts for basic styles
+* Github Pages to deploy the project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to setup locally
 
-### `npm run build`
+Run the following commands to setup, given `node` and `npm` is available:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. git clone https://github.com/Humza23/student-data.git
+2. cd student-data
+3. npm install
+4. npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+or to view project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Navigate to https://humza23.github.io/student-data/
 
-### `npm run eject`
+## If it was a bigger project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is a coding task and scope is quite small. If it was a bigger real project, doing the following would be better:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. If a RDBMS is used, it would be easier to scale this project with a relational database and a select SQL than on the code.
+2. Further design the application to enhance the user experience and incorporate it as part of a larger application.
